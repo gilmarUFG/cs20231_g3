@@ -1,7 +1,7 @@
 ### cs_20233
 Repositório definido para a manutenção do controle de versão dos artefatos do projeto de construção de uma API Rest para:
 
-**<descrever o propósito da API>**.
+uma plataforma de financiamento coletivo de projetos, em que os usuários poderão realizar o cadastro destes para receber contribuições de outros usuários cadastrados na plataforma. Ainda, será possível definir uma meta de arrecadação, receber apoio financeiro e oferecer recompensas personalizadas aos apoiadores.
 
 ### Grupo
 Esta API será construída pelos componentes do grupo 3:
@@ -15,19 +15,23 @@ Esta API será construída pelos componentes do grupo 3:
 |202105050|Murilo Henrique de Sousa Freua|[murilofreua](https://github.com/murilofreua)|
 
 ### Requisitos Funcionais
-1. RF001 - <descrever>
-2. RF002 - <descrever>
-3. RF003 - <descrever>
-3. RF004 - <descrever>
-3. RF005 - <descrever>
+1. RF001 - O Sistema deve permitir que um usuário, com permissão de administrador, avalie projetos para a aprovação.
+2. RF002 - O sistema deve permitir que um usuário cadastre um projeto.
+3. RF003 - O sistema deve permitir que um usuário cadastre recompensas para os apoiadores, de acordo com valor doado.
+4. RF004 - O sistema deve permitir que os projetos recebam apoio de usuários, sendo uma única arrecadação por usuário.
+5. RF005 - O sistema deve permitir que o usuário defina uma meta de arrecadação.
+6. RF006 - O sistema deve permitir que um usuário apoie um projeto.
+7. RF007 - O sistema deve permitir que o usuário busque projetos.
 
 ### Requisitos Não Funcionais
 <Descrever os requisitos não funcionais identificados no mesmo modelo da descrição dos requisitos funcionais>
 
 ### Regras de Negócio
-1. RN01 - <descrever>
-2. RN02 - <descrever>
-
+1. RN01 - Apenas projetos aprovados poderão receber contribuições.
+2. RN02 - Valor mínimo para realizar doação em um projeto (definido pelo proprietário do projeto).
+3. RN03 - Projetos só poderão realizar o resgate ao atingir a meta definida.
+4. RN04 - A plataforma cobrará uma taxa de 5% do valor a ser resgatado.
+5. RN05 - Ao encerrar ou pausar a campanha ela não poderá receber mais contribuições.
 <Adicionar outras regras, se existirem.>
 
 ### Tecnologia de _Front-end_
@@ -46,4 +50,4 @@ Esta API será construída pelos componentes do grupo 3:
 
 |Iteração|Tarefa|Data Início|Data Fim|Responsável|Situação|
 |---|---|---|---|---|---|
-|1|Especificar História de Usuário 1|02/05/2023|03/05/2023|Murilo Henrique|Programada|
+|1|Atualização README|28/05/2023|28/05/2023|Karlla && Gabriel Mesquita|Concluído|
