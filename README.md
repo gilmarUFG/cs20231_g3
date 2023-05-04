@@ -51,4 +51,4 @@ Esta API será construída pelos componentes do grupo 3:
 |Iteração|Tarefa|Data Início|Data Fim|Responsável|Situação|
 |---|---|---|---|---|---|
 |1|Atualização README|28/04/2023|28/04/2023|Karlla && Gabriel Mesquita|Concluído|
-|2|Instalação do ambiente de desenvolvimento|04/05/2023|--/--/2023|Gabriel Mesquita|Andamento|
+|2|Instalação do ambiente de desenvolvimento, tela de homepage rudimentar, tela de registo e login e roteamento|04/05/2023|--/--/2023|Gabriel Mesquita|Andamento|
