@@ -5,22 +5,25 @@ import {Link, Route, Routes} from 'react-router-dom';
 import IndexPage from './Pages/IndexPage';
 import LoginPage from './Pages/LoginPage';
 import RegisterPage from './Pages/RegisterPage';
+import { UserContextProvider } from './UserContext';
 
 function App() {
   return (
 
-    <Routes>
-      <Route path="/" element={<Layout />}>
+    <UserContextProvider>
 
-        <Route index element={ <IndexPage /> }/>
+      <Routes>
+        <Route path="/" element={<Layout />}>
 
-        <Route path="/login" element={ <LoginPage /> }/>
+          <Route index element={ <IndexPage /> }/>
 
-        <Route path="/register" element={ <RegisterPage /> }/>
+          <Route path="/login" element={ <LoginPage /> }/>
 
-      </Route>
-    </Routes>
-    
+          <Route path="/register" element={ <RegisterPage /> }/>
+
+        </Route>
+      </Routes>
+    </UserContextProvider>
   );
 }
 

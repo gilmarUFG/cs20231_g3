@@ -35,13 +35,13 @@ Esta API será construída pelos componentes do grupo 3:
 <Adicionar outras regras, se existirem.>
 
 ### Tecnologia de _Front-end_
-<Descrever a tecnologia que será utilizada no _front-end_.>
+React.js: É flexível e oferece desempenho rápido, tornando a experiência do usuário mais responsiva.
 
 ### Tecnologia de _Back-end_
-<Descrever a tecnologia que será utilizada no _front-end_.>
+Node.js com Express.js: Lida bem com um grande número de conexões simultâneas, tornando-o adequado para aplicações em tempo real.
 
 ### Tecnologia de Persistência de Dados
-<Descrever a tecnologia que será utilizada para Persistência de dados.>
+MongoDB: Lida com grandes quantidades de dados e permite alterações de esquema mais facilmente do que os bancos de dados relacionais.
 
 ### Local do _Deploy_
 <Descrever onde será feito o _deploy_ da API.>
@@ -51,4 +51,4 @@ Esta API será construída pelos componentes do grupo 3:
 |Iteração|Tarefa|Data Início|Data Fim|Responsável|Situação|
 |---|---|---|---|---|---|
 |1|Atualização README|28/04/2023|28/04/2023|Karlla && Gabriel Mesquita|Concluído|
-|2|Instalação do ambiente de desenvolvimento, tela de homepage rudimentar, tela de registo e login e roteamento|04/05/2023|--/--/2023|Gabriel Mesquita|Andamento|
+|2|Atualização README. Instalação do ambiente de desenvolvimento. Criação de componentes e layout React. Tela de homepage rudimentar. Tela de registro e login completas. Roteamentos. Conexão entre front e backend. Criação do banco de dados. Funcionalidade de registro com criptografia, login e logout.|04/05/2023|05/05/2023|Gabriel Mesquita|Concluído|
