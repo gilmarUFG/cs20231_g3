@@ -56,8 +56,10 @@ MongoDB: Lida com grandes quantidades de dados e permite alterações de esquema
 |2|Modelagem de dados (RF001, RF002, RF003 e RF005 e RF004)|06/05/2023|19/05/2023||Programada|
 |2|CRUD de usuários|06/05/2023|19/05/2023||Programada|
 |2|Especificação das histórias de usuário (RF002, RF003 e RF005)|06/05/2023|19/05/2023||Programada|
-|3|Implementação do frontend do cadastro de projetos|20/05/2023|02/06/2023||Programada|
+|2|Implementação do frontend do cadastro de projetos|20/05/2023|02/06/2023||Programada|
 |3|Implementação do backend do CRUD de projetos|20/05/2023|02/06/2023||Programada|
+|3|Implementação do frontend do cadastro de recompensas|20/05/2023|02/06/2023||Programada|
+|3|Implementação do backend do CRUD de recompensas|20/05/2023|02/06/2023||Programada|
 |4|Especificação das histórias de usuário (RF001)|03/06/2023|16/06/2023||Programada|
 |4|Implementação do frontend da tela de moderação de projetos|03/06/2023|16/06/2023||Programada|
 |4|Implementação do frontend da tela de moderação de projetos|03/06/2023|16/06/2023||Programada|
