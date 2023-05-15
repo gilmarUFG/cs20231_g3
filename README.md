@@ -51,13 +51,16 @@ MongoDB: Lida com grandes quantidades de dados e permite alterações de esquema
 |Iteração|Tarefa|Data Início|Data Fim|Responsável|Situação|
 |---|---|---|---|---|---|
 |1|Atualização README|28/04/2023|28/04/2023|Karlla && Gabriel Mesquita|Concluída|
-|1|Criação da base do projeto (frontend, backend e banco de dados)|17/04/2023|05/05/2023||Concluída|
-|1|Cadastro e login de usuários|17/04/2023|05/05/2023||Concluída|
-|2|Modelagem de dados (RF001, RF002, RF003 e RF005 e RF004)|06/05/2023|19/05/2023||Programada|
-|2|CRUD de usuários|06/05/2023|19/05/2023||Programada|
-|2|Especificação das histórias de usuário (RF002, RF003 e RF005)|06/05/2023|19/05/2023||Programada|
-|3|Implementação do frontend do cadastro de projetos|20/05/2023|02/06/2023||Programada|
+|1|Criação da base do projeto (frontend, backend e banco de dados)|17/04/2023|05/05/2023|[Gabriel-Mesq](https://github.com/Gabriel-Mesq)|Concluída|
+|1|Cadastro e login de usuários|17/04/2023|05/05/2023|[Gabriel-Mesq](https://github.com/Gabriel-Mesq)|Concluída|
+|2|Modelagem de dados (RF001, RF002, RF003, RF004 e RF005)|06/05/2023|19/05/2023|[Karlla](https://github.com/karllaloane), [Gabriel-Reis](https://github.com/gabrielreisdvs)|Em andamento|
+|2|CRUD de usuários|06/05/2023|19/05/2023|[Gabriel-Mesq](https://github.com/Gabriel-Mesq)|Em andamento|
+|2|Especificação das histórias de usuário (RF002, RF005)|06/05/2023|19/05/2023|[Karlla](https://github.com/karllaloane), [Gabriel-Reis](https://github.com/gabrielreisdvs)|Em andamento|
+|2|Implementação do frontend do cadastro de projetos, página inicial e registro de usuário|06/05/2023|19/05/2023|[Kaua](https://github.com/kauajuno), [Murilo](https://github.com/murilofreua)|Em andamento|
+|3|Especificação das histórias de usuário (RF003)|20/05/2023|02/06/2023||Programada|
 |3|Implementação do backend do CRUD de projetos|20/05/2023|02/06/2023||Programada|
+|3|Implementação do frontend do cadastro de recompensas|20/05/2023|02/06/2023||Programada|
+|3|Implementação do backend do CRUD de recompensas|20/05/2023|02/06/2023||Programada|
 |4|Especificação das histórias de usuário (RF001)|03/06/2023|16/06/2023||Programada|
 |4|Implementação do frontend da tela de moderação de projetos|03/06/2023|16/06/2023||Programada|
 |4|Implementação do frontend da tela de moderação de projetos|03/06/2023|16/06/2023||Programada|
