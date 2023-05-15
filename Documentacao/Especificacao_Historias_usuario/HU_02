@@ -1,0 +1,46 @@
+<div align=center>
+  <img src="./imagens/INFVertical.jpg">
+</div>
+
+
+<div align="center">UFG - Universidade Federal de Goiás</div>
+<div align="center">INF - Instituto de Informática</div>
+
+###### Nome do Sistema:
+###### Estória de Usuário: HU02
+###### Sprint: 1
+###### Nome: <_Nome da Estória. Exemplo: Registrar Frequencia online_>
+
+## Histórico
+|**Versão**|**Data**|**Alteração no Documento**|**Autor**|
+|------|----|---------|-----|
+|1.0|13/05/2023|15/05/2023|[Karlla](https://github.com/karllaloane), [Gabriel-Reis](https://github.com/gabrielreisdvs)|
+|<Versão>|< data >|< descrição >|< autor >|
+
+
+
+**Como:** usuário da plataforma
+
+**Eu quero:** ser capaz de cadastrar um projeto
+
+**Para:** receber o apoio financeiro de outros usuários.
+
+
+**Cenário 1:** registrar a entrada no período matutino
+
+**Dado:** 
+
+**E:** 
+
+**Quando:** 
+
+**E:** 
+
+**E:** 
+
+**Então:** 
+
+**E:** 
+
+
+</DIV>
