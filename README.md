@@ -19,7 +19,7 @@ Esta API será construída pelos componentes do grupo 3:
 2. RF002 - O sistema deve permitir que um usuário cadastre um projeto.
 3. RF003 - O sistema deve permitir que um usuário cadastre recompensas para os apoiadores, de acordo com valor doado.
 4. RF004 - O sistema deve permitir que os projetos recebam apoio de usuários, sendo uma única arrecadação por usuário.
-5. RF005 - O sistema deve permitir que o usuário defina uma meta de arrecadação.
+5. RF005 - O sistema deve permitir que o usuário defina um prazo para a arrecadação.
 6. RF006 - O sistema deve permitir que um usuário resgate o valor arrecadado em um projeto.
 7. RF007 - O sistema deve permitir que o usuário busque projetos.
 
@@ -29,10 +29,9 @@ Esta API será construída pelos componentes do grupo 3:
 ### Regras de Negócio
 1. RN01 - Apenas projetos aprovados poderão receber contribuições.
 2. RN02 - Valor mínimo para realizar doação em um projeto (definido pelo proprietário do projeto).
-3. RN03 - Projetos só poderão realizar o resgate ao atingir a meta definida.
+3. RN03 - Projetos só poderão realizar o resgate ao final do prazo para a arrecadação.
 4. RN04 - A plataforma cobrará uma taxa de 5% do valor a ser resgatado.
-5. RN05 - Ao encerrar ou pausar a campanha ela não poderá receber mais contribuições.
-<Adicionar outras regras, se existirem.>
+5. RN05 - Ao encerrar a campanha ela não poderá receber mais contribuições.
 
 ### Tecnologia de _Front-end_
 React.js: É flexível e oferece desempenho rápido, tornando a experiência do usuário mais responsiva.
@@ -55,9 +54,9 @@ MongoDB: Lida com grandes quantidades de dados e permite alterações de esquema
 |1|Cadastro e login de usuários|17/04/2023|05/05/2023|[Gabriel-Mesq](https://github.com/Gabriel-Mesq)|Concluída|
 |2|Modelagem de dados (RF001, RF002, RF003, RF004 e RF005)|06/05/2023|19/05/2023|[Karlla](https://github.com/karllaloane), [Gabriel-Reis](https://github.com/gabrielreisdvs)|Em andamento|
 |2|CRUD de usuários|06/05/2023|19/05/2023|[Gabriel-Mesq](https://github.com/Gabriel-Mesq)|Em andamento|
-|2|Especificação das histórias de usuário (RF002, RF003)|06/05/2023|19/05/2023|[Karlla](https://github.com/karllaloane), [Gabriel-Reis](https://github.com/gabrielreisdvs)|Em andamento|
+|2|Especificação das histórias de usuário (RF002, RF005)|06/05/2023|19/05/2023|[Karlla](https://github.com/karllaloane), [Gabriel-Reis](https://github.com/gabrielreisdvs)|Em andamento|
 |2|Implementação do frontend do cadastro de projetos, página inicial e registro de usuário|06/05/2023|19/05/2023|[Kaua](https://github.com/kauajuno), [Murilo](https://github.com/murilofreua)|Em andamento|
-|3|Especificação das histórias de usuário (RF005)|20/05/2023|02/06/2023||Programada|
+|3|Especificação das histórias de usuário (RF003)|20/05/2023|02/06/2023||Programada|
 |3|Implementação do backend do CRUD de projetos|20/05/2023|02/06/2023||Programada|
 |3|Implementação do frontend do cadastro de recompensas|20/05/2023|02/06/2023||Programada|
 |3|Implementação do backend do CRUD de recompensas|20/05/2023|02/06/2023||Programada|
