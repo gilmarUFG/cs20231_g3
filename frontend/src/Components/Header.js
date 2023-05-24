@@ -1,6 +1,6 @@
-import {Link} from "react-router-dom";
-import {useContext, useEffect, useState} from "react";
-import {UserContext} from "../UserContext";
+import { Link } from "react-router-dom";
+import { useContext, useEffect, useState } from "react";
+import { UserContext } from "../UserContext";
 
 export default function Header() {
   const {setUserInfo,userInfo} = useContext(UserContext);
@@ -26,7 +26,7 @@ export default function Header() {
 
   return (
     <header>
-      <Link to="/" className="logo">IncentivaProjetos</Link>
+      <Link to="/" className="logo">Incentiva Projetos</Link>
       <nav>
         {username && (
           <>
@@ -36,8 +36,8 @@ export default function Header() {
         )}
         {!username && (
           <>
-            <Link to="/login">Login</Link>
-            <Link to="/register">Register</Link>
+            <Link className="link" to="/login">Login</Link>
+            <Link className="link" to="/register">Registrar</Link>
           </>
         )}
       </nav>
