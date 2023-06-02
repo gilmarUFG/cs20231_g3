@@ -1,0 +1,30 @@
+.logo {
+    text-decoration: none;
+    background-color: #222;
+    color: #CC6FED;
+    width: 3rem;
+}
+
+.link {
+    text-decoration: none;
+    color: #FFFFFF;
+}
+
+main {
+    margin: 0 auto;
+}
+
+header {
+    background-color: #222;
+    padding: 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 64px;
+}
+
+header nav {
+    display: flex;
+    background-color: #222;
+    gap: 16px;
+}

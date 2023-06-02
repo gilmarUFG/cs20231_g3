@@ -1,10 +1,11 @@
 import { Card, CardBody, CardFooter, flexbox } from '@chakra-ui/react';
 import { Image, Stack, Button, ButtonGroup, Divider, Text } from '@chakra-ui/react';
 import { Progress } from '@chakra-ui/react';
+import './project.css';
 
 export default function Project() {
     return (    
-      <Card maxW='sm' borderWidth='3px' borderColor='#CC6FED' margin='20px'>
+      <Card maxW='sm' borderWidth='3px' borderColor='#F2DBFA' margin='20px' borderRadius='15px'>
         <CardBody>
           <Image
             src='https://i.pinimg.com/originals/61/cc/b4/61ccb4842c843263bfbb13e3b77bfdab.jpg'

@@ -33,14 +33,17 @@ Esta API será construída pelos componentes do grupo 3:
 4. RN04 - A plataforma cobrará uma taxa de 5% do valor a ser resgatado.
 5. RN05 - Ao encerrar a campanha ela não poderá receber mais contribuições.
 
+### Tecnologia de _Design_
+Figma: A ferramenta mais conhecida para design de telas e design systems no meio do desenvolvimento web. Os designs utilizados para essa aplicação podem ser encontrados [aqui](https://www.figma.com/file/ME3Ae0ZAivrXC58XjK56Sf/financie.se?type=design&t=6y2lRszdo2QXK00K-6).
+
 ### Tecnologia de _Front-end_
 React.js: É flexível e oferece desempenho rápido, tornando a experiência do usuário mais responsiva.
 
 ### Tecnologia de _Back-end_
-Node.js com Express.js: Lida bem com um grande número de conexões simultâneas, tornando-o adequado para aplicações em tempo real.
+Java Spring Boot: Uma das mais utilizadas ferramentas para a construção de APIs.
 
 ### Tecnologia de Persistência de Dados
-MongoDB: Lida com grandes quantidades de dados e permite alterações de esquema mais facilmente do que os bancos de dados relacionais.
+Hibernate: Persistência de dados relacional de forma simplificada.
 
 ### Local do _Deploy_
 <Descrever onde será feito o _deploy_ da API.>
