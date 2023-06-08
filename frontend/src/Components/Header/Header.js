@@ -1,6 +1,7 @@
 import { Link } from "react-router-dom";
 import { useContext, useEffect, useState } from "react";
-import { UserContext } from "../UserContext";
+import { UserContext } from "../../UserContext";
+import './header.css';
 
 export default function Header() {
   const {setUserInfo,userInfo} = useContext(UserContext);
@@ -26,7 +27,7 @@ export default function Header() {
 
   return (
     <header>
-      <Link to="/" className="logo">Incentiva Projetos</Link>
+      <Link to="/" className="logo"><img src="./logo-heliotrope.svg"/></Link>
       <nav>
         {username && (
           <>
