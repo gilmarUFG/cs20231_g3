@@ -1,39 +1,7 @@
 *{
   box-sizing: border-box;
-  background-color: #E6B7F6;
+  background-color: #FFFFFF;
   font-family: 'Jost', sans-serif;
-}
-
-.link, .logo {
-  text-decoration: none;
-  background-color: #222;
-  color: #CC6FED;
-}
-
-main {
-  margin: 0 auto;
-}
-
-header{
-  background-color: #222;
-  padding: 30px;
-  display: flex;
-  justify-content: space-between;
-  margin-bottom: 64px;
-}
-
-header nav{
-  display: flex;
-  background-color: #222;
-  gap: 16px;
-}
-
-.projetos {
-  margin: 100px;
-  
-  display: flex;
-  align-content: center;
-  
 }
 
 .form {
