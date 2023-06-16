@@ -59,14 +59,14 @@ Hibernate: Persistência de dados relacional de forma simplificada.
 |2|CRUD de usuários|06/05/2023|19/05/2023|[Karlla](https://github.com/karllaloane)|Concluída|
 |2|Especificação das histórias de usuário (RF002, RF005)|06/05/2023|19/05/2023|[Karlla](https://github.com/karllaloane), [Gabriel-Reis](https://github.com/gabrielreisdvs)|Concluída|
 |2|Implementação do frontend do cadastro de projetos, página inicial e registro de usuário|06/05/2023|19/05/2023|[Kaua](https://github.com/kauajuno), [Murilo](https://github.com/murilofreua),[Gabriel-Mesq](https://github.com/Gabriel-Mesq)|Concluída|
-|3|Especificação das histórias de usuário (RF003)|20/05/2023|02/06/2023|[Karlla](https://github.com/karllaloane), [Gabriel-Reis](https://github.com/gabrielreisdvs)|Em andamento|
+|3|Especificação das histórias de usuário (RF003)|20/05/2023|02/06/2023|[Karlla](https://github.com/karllaloane), [Gabriel-Reis](https://github.com/gabrielreisdvs)|Concluída|
 |3|Implementação do backend do CRUD de projetos|20/05/2023|02/06/2023|[Karlla](https://github.com/karllaloane)|Concluída|
 |3|Testes - Cadastro de projetos|20/05/2023|02/06/2023||Programada|
 |3|Implementação do frontend do cadastro de recompensas|20/05/2023|02/06/2023|[Kaua](https://github.com/kauajuno), [Murilo](https://github.com/murilofreua)|Em andamento|
 |3|Implementação do backend do CRUD de recompensas|20/05/2023|02/06/2023|[Gabriel-Reis](https://github.com/gabrielreisdvs)|Concluída|
-|4|Especificação das histórias de usuário (RF001)|03/06/2023|16/06/2023|[Gabriel-Reis](https://github.com/gabrielreisdvs)|Em andamento|
+|4|Especificação das histórias de usuário (RF001)|03/06/2023|16/06/2023|[Gabriel-Reis](https://github.com/gabrielreisdvs), [Karlla](https://github.com/karllaloane)|Concluída|
 |4|Implementação do frontend da tela de moderação de projetos|03/06/2023|16/06/2023|[Kaua](https://github.com/kauajuno), [Murilo](https://github.com/murilofreua),[Gabriel-Mesq](https://github.com/Gabriel-Mesq)|Em andamento|
-|4|Implementação do backend de moderação dos projetos|03/06/2023|16/06/2023|[Karlla](https://github.com/karllaloane)|Em andamento|
+|4|Implementação do backend de moderação dos projetos|03/06/2023|16/06/2023|[Karlla](https://github.com/karllaloane)|Concluída|
 |5|Especificação das histórias de usuário (RF004)|17/06/2023|30/06/2023||Programada|
 |5|Implementação backend da funcionalidade de apoiar projetos|17/06/2023|30/06/2023||Programada|
 |5|Implementação do frontend da tela de visualização de projetos|17/06/2023|30/06/2023||Programada|
