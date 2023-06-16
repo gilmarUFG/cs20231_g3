@@ -23,7 +23,6 @@ app.post('/register', async (req, res) => {
         console.log(err);
         res.status(400).json(err);
     }
-
 });
 
 app.post('/login', async (req,res) => {
@@ -45,7 +44,36 @@ app.post('/login', async (req,res) => {
       res.status(400).json('wrong credentials');
     }
 });
-  
+
+//Aqui é onde a página de alteração de usuário vai ser criada
+app.put('/edit-account/:id', async (req, res) => {
+  const { id } = req.params;
+  const { username, password } = req.body;
+
+  try {
+      const updatedUser = await User.findByIdAndUpdate(id, {
+          username,
+          password: bcrypt.hashSync(password, salt),
+      });
+      res.json(updatedUser);
+  } catch (err) {
+      console.log(err);
+      res.status(400).json(err);
+  }
+});
+
+//Aqui o delete
+app.delete('/delete-account/:id', async (req, res) => {
+  const { id } = req.params;
+
+  try {
+      await User.findByIdAndDelete(id);
+      res.json('Account deleted successfully');
+  } catch (err) {
+      console.log(err);
+      res.status(400).json(err);
+  }
+});
 
 app.get('/profile', (req,res) => {
     const {token} = req.cookies;
