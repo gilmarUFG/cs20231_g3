@@ -1,0 +1,12 @@
+com\construcao\financiase\users\service\AuthenticationServiceTest.class
+com\construcao\financiase\users\builder\UserDTOBuilder.class
+com\construcao\financiase\utils\JsonConversionUtils.class
+com\construcao\financiase\project\builder\ProjectDTOBuilder$ProjectDTOBuilderBuilder.class
+com\construcao\financiase\project\controller\ProjectControllerTest.class
+com\construcao\financiase\project\service\ProjectServiceTest.class
+com\construcao\financiase\users\controller\UserControllerTest.class
+com\construcao\financiase\users\service\UserServiceTest.class
+com\construcao\financiase\project\builder\ProjectDTOBuilder.class
+com\construcao\financiase\users\builder\JwtRequestBuilder.class
+com\construcao\financiase\users\builder\UserDTOBuilder$UserDTOBuilderBuilder.class
+com\construcao\financiase\users\builder\JwtRequestBuilder$JwtRequestBuilderBuilder.class
