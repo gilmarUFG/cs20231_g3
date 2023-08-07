@@ -100,8 +100,27 @@
     color: #0A0A0A;
 }
 
+.image-picker-container{
+    width: 50vw;
+    aspect-ratio: 16/6;
+    background-color: #E9E9E9;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.image-picker-container > span{
+    color: #848484;
+}
+
+#image-picker-input{
+    display: none;
+}
+
 @media (max-height: 960px) {
     .main-container{
-        height: 95vh;
+        height: 100vh;
+        border-radius: 0px;
     }
 }
