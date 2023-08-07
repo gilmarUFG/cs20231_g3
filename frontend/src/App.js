@@ -3,9 +3,11 @@ import './App.css';
 import Layout from './Components/Layout';
 import {Route, Routes} from 'react-router-dom';
 import IndexPage from './Pages/IndexPage';
-import LoginPage from './Pages/LoginPage';
-import RegisterPage from './Pages/RegisterPage';
+import LoginPage from './Pages/Login/LoginPage';
+import RegisterPage from './Pages/Register/RegisterPage';
 import CreateProject from './Pages/CreateProject';
+import ProjectPage from './Pages/ProjectPage';
+
 import { UserContextProvider } from './UserContext';
 
 function App() {
@@ -23,6 +25,7 @@ function App() {
 
           <Route path="/create" element={ <CreateProject /> }/>
 
+          <Route path="/project" element={ <ProjectPage /> }/>
         </Route>
       </Routes>
     </UserContextProvider>
