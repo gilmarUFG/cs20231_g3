@@ -24,7 +24,7 @@ Esta API será construída pelos componentes do grupo 3:
 7. RF007 - O sistema deve permitir que o usuário busque projetos.
 
 ### Requisitos Não Funcionais
-1. RNF001 - O sistema deve restringir a um o número de apoios por usuário para cada projeto cadastrado
+<Insira aqui os requisitos não funcionais>
 
 ### Regras de Negócio
 1. RN01 - Apenas projetos aprovados poderão receber contribuições.
@@ -32,6 +32,7 @@ Esta API será construída pelos componentes do grupo 3:
 3. RN03 - Projetos só poderão realizar o resgate ao final do prazo para a arrecadação.
 4. RN04 - A plataforma cobrará uma taxa de 5% do valor a ser resgatado.
 5. RN05 - Ao encerrar a campanha ela não poderá receber mais contribuições.
+6. RN06 - O usuário poderá contribuir somente uma vez para cada projeto
 
 ### Tecnologia de _Design_
 Figma: A ferramenta mais conhecida para design de telas e design systems no meio do desenvolvimento web. Os designs utilizados para essa aplicação podem ser encontrados [aqui](https://www.figma.com/file/ME3Ae0ZAivrXC58XjK56Sf/financie.se?type=design&t=6y2lRszdo2QXK00K-6).
