@@ -24,7 +24,7 @@ Esta API será construída pelos componentes do grupo 3:
 7. RF007 - O sistema deve permitir que o usuário busque projetos.
 
 ### Requisitos Não Funcionais
-<Descrever os requisitos não funcionais identificados no mesmo modelo da descrição dos requisitos funcionais>
+1. RNF001 - O sistema deve restringir a um o número de apoios por usuário para cada projeto cadastrado
 
 ### Regras de Negócio
 1. RN01 - Apenas projetos aprovados poderão receber contribuições.
