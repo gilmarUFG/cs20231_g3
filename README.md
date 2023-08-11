@@ -15,24 +15,22 @@ Esta API será construída pelos componentes do grupo 3:
 |202105050|Murilo Henrique de Sousa Freua|[murilofreua](https://github.com/murilofreua)|
 
 ### Requisitos Funcionais
-1. RF001 - O Sistema deve permitir que um usuário, com permissão de administrador, avalie projetos para a aprovação.
-2. RF002 - O sistema deve permitir que um usuário cadastre um projeto.
-3. RF003 - O sistema deve permitir que um usuário cadastre recompensas para os apoiadores, de acordo com valor doado.
-4. RF004 - O sistema deve permitir que os projetos recebam apoio de usuários, sendo uma única arrecadação por usuário.
-5. RF005 - O sistema deve permitir que o usuário defina um prazo para a arrecadação.
-6. RF006 - O sistema deve permitir que um usuário resgate o valor arrecadado em um projeto.
-7. RF007 - O sistema deve permitir que o usuário busque projetos.
+1. RF001 - O sistema deve permitir que um usuário cadastre um projeto.
+2. RF002 - O sistema deve permitir que um usuário cadastre recompensas para os apoiadores, de acordo com valor doado.
+3. RF003 - O sistema deve permitir que os projetos recebam apoio de usuários, sendo uma única arrecadação por usuário.
+4. RF004 - O sistema deve permitir que o usuário defina um prazo para a arrecadação.
+5. RF005 - O sistema deve permitir que um usuário resgate o valor arrecadado em um projeto.
+6. RF006 - O sistema deve permitir que o usuário busque projetos.
 
 ### Requisitos Não Funcionais
 <Insira aqui os requisitos não funcionais>
 
 ### Regras de Negócio
-1. RN01 - Apenas projetos aprovados poderão receber contribuições.
-2. RN02 - Valor mínimo para realizar doação em um projeto (definido pelo proprietário do projeto).
-3. RN03 - Projetos só poderão realizar o resgate ao final do prazo para a arrecadação.
-4. RN04 - A plataforma cobrará uma taxa de 5% do valor a ser resgatado.
-5. RN05 - Ao encerrar a campanha ela não poderá receber mais contribuições.
-6. RN06 - O usuário poderá contribuir somente uma vez para cada projeto
+1. RN01 - Valor mínimo para realizar doação em um projeto (definido pelo proprietário do projeto).
+2. RN02 - Projetos só poderão realizar o resgate ao final do prazo para a arrecadação.
+3. RN03 - A plataforma cobrará uma taxa de 5% do valor a ser resgatado.
+4. RN04 - Ao encerrar a campanha ela não poderá receber mais contribuições.
+5. RN05 - O usuário poderá contribuir somente uma vez para cada projeto
 
 ### Tecnologia de _Design_
 Figma: A ferramenta mais conhecida para design de telas e design systems no meio do desenvolvimento web. Os designs utilizados para essa aplicação podem ser encontrados [aqui](https://www.figma.com/file/ME3Ae0ZAivrXC58XjK56Sf/financie.se?type=design&t=6y2lRszdo2QXK00K-6).
@@ -77,5 +75,4 @@ Hibernate: Persistência de dados relacional de forma simplificada.
 |6|Implementação backend da funcionalidade de resgatar arrecadação|01/07/2023|21/07/2023||Programada|
 |6|Implementação do frontend|01/07/2023|21/07/2023||Programada|
 |6|Testes automatizados: RN03, RN04, RN06|01/07/2023|21/07/2023||Programada|
-|7|Especificação das histórias de usuário (RF007)|22/07/2023|11/08/2023|[Gabriel-Reis](https://github.com/gabrielreisdvs)|Concluída|
 |7|Implementação frontend de visualização de busca|22/07/2023|11/08/2023||Programada|
