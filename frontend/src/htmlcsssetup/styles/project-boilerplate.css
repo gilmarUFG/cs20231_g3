@@ -6,8 +6,11 @@
     width: 100%;
     height: 464px;
     margin: 32px 0;
-    background-image: url(../assets/project-boilerplate-banner.png);
-    background-size: cover;
+    background: linear-gradient(
+        to right,
+        #CC6FED,
+        #E6B7F6
+    );
 }
 
 .banner-title{
@@ -23,10 +26,13 @@
 .principal-contents{
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
+    justify-content: space-around;
     width: 100%;
-    margin: 64px;
-    gap: 48px;
+    margin: 64px 0;
+}
+
+.principal-contents > div {
+    width: 40%;
 }
 
 .principal-contents-pagamento-box > .texto, .principal-contents-pagamento-box > .destaque{
@@ -37,7 +43,7 @@
 .purple-button{
     background-color: #CC6FED;
     color: #FFFFFF;
-    padding: 16px 48px;
+    padding: 16px 80px;
     border: none;
     border-radius: 15px;
     margin-top: 12px;
