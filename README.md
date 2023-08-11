@@ -21,7 +21,6 @@ Esta API será construída pelos componentes do grupo 3:
 4. RF004 - O sistema deve permitir que o usuário defina um prazo para a arrecadação.
 5. RF005 - O sistema deve permitir que um usuário resgate o valor arrecadado em um projeto.
 6. RF006 - O sistema deve permitir que o usuário busque projetos.
-7. RF007 - O sistema deve permitir que o usuário pause o projeto que cadastrou.
 
 ### Requisitos Não Funcionais
 <Insira aqui os requisitos não funcionais>
@@ -76,5 +75,4 @@ Hibernate: Persistência de dados relacional de forma simplificada.
 |6|Implementação backend da funcionalidade de resgatar arrecadação|01/07/2023|21/07/2023||Programada|
 |6|Implementação do frontend|01/07/2023|21/07/2023||Programada|
 |6|Testes automatizados: RN03, RN04, RN06|01/07/2023|21/07/2023||Programada|
-|7|Especificação das histórias de usuário (RF007)|22/07/2023|11/08/2023|[Gabriel-Reis](https://github.com/gabrielreisdvs)|Concluída|
 |7|Implementação frontend de visualização de busca|22/07/2023|11/08/2023||Programada|
