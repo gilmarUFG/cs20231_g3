@@ -45,12 +45,6 @@
     align-items: flex-start;
 }
 
-.register-project-form > label{
-    color: #0A0A0A;
-    margin-bottom: 8px;
-}
-
-
 .text-input{
     color: #0A0A0A;
     background-color: #E9E9E9;
@@ -61,24 +55,16 @@
     margin-bottom: 18px;
 }
 
-.date-input{
-    color: #0A0A0A;
-    background-color: #E9E9E9;
-    padding: 10px 20px;
-    border: none;
-    border-radius: 15px;
-    margin-bottom: 18px;
-    width: 50vw;
+.credit-card-date-box{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 2vw;
 }
 
-.number-input{
-    color: #0A0A0A;
-    background-color: #E9E9E9;
-    padding: 10px 20px;
-    border: none;
-    border-radius: 15px;
-    margin-bottom: 18px;
-    width: 50vw;
+.credit-card-date-box > input{
+    width: 5vw;
 }
 
 .purple-button{
@@ -100,27 +86,10 @@
     color: #0A0A0A;
 }
 
-.image-picker-container{
-    width: 50vw;
-    aspect-ratio: 16/6;
-    background-color: #E9E9E9;
-    cursor: pointer;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-
-.image-picker-container > span{
-    color: #848484;
-}
-
-#image-picker-input{
-    display: none;
-}
-
 @media (max-height: 960px) {
     .main-container{
         height: 100vh;
         border-radius: 0px;
     }
+    
 }
