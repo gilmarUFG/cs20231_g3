@@ -75,3 +75,25 @@
     padding: 24px 0;
     color: #0A0A0A;
 }
+
+.recompensas{
+    display: flex;
+    flex-direction: column;
+}
+
+.recompensas > h1, .recompensas-recompensa > h2{
+    text-align: center;
+    margin-bottom: 16px;
+}
+
+.recompensas > h1{
+    margin-bottom: 32px;
+}
+
+.recompensas-recompensa > h2{
+    color: #CC6FED;
+}
+
+.recompensas-recompensa > .texto{
+    margin: 16px 64px;
+}
