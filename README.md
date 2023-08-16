@@ -22,9 +22,6 @@ Esta API será construída pelos componentes do grupo 3:
 5. RF005 - O sistema deve permitir que um usuário resgate o valor arrecadado em um projeto.
 6. RF006 - O sistema deve permitir que o usuário busque projetos.
 
-### Requisitos Não Funcionais
-<Insira aqui os requisitos não funcionais>
-
 ### Regras de Negócio
 1. RN01 - Valor mínimo para realizar doação em um projeto (definido pelo proprietário do projeto).
 2. RN02 - Projetos só poderão realizar o resgate ao final do prazo para a arrecadação.
