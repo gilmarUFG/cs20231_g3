@@ -6,7 +6,6 @@ import axios from 'axios';
 
 function RewardRegister() {
     const [lastProjectId, setLastProjectId] = useState(0);
-    const [rewardRegisterError, setRewardRegisterError] = useState(false);
 
     useEffect(() => {
         async function fetchLastProjectId() {
@@ -49,17 +48,16 @@ function RewardRegister() {
                 minValue,
                 expectedDeliveryDate
             };
-
+            
+            // eslint-disable-next-line
             const response = await axios.post(url, data, {
                 headers: {
                     Authorization: `Bearer ${authToken}`
                 }
             });
 
-            // Handle the response as needed
         } catch (error) {
             console.error('Error creating reward:', error);
-            setRewardRegisterError(true);
         }
     };
 

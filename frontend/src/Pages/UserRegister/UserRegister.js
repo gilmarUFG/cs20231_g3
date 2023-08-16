@@ -67,7 +67,7 @@ function UserRegister() {
               <input className="text-input texto" name="password" placeholder="Senha" type="password" />
               <input className="text-input texto" name="confirmPassword" placeholder="Confirme sua senha" type="password" />
               <input className="purple-button texto" type="submit" value="Registrar" />
-              <a className="alerta register-link" href="#">Já tenho uma conta</a>
+              <a className="alerta register-link" href="/login">Já tenho uma conta</a>
             </form>
           </div>
         </div>

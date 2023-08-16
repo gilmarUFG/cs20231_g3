@@ -1,11 +1,10 @@
-import React, { useState } from 'react';
+import React from 'react';
 import './reset.css';
 import './main.css';
 import './projectregister.css';
 import axios from 'axios';
 
 function ProjectRegister() {
-  const [projectRegisterError, setProjectRegisterError] = useState(false);
 
   const handleProjectRegister = async (event) => {
     event.preventDefault();
@@ -44,7 +43,6 @@ function ProjectRegister() {
       window.location.href = '/';
     } catch (error) {
       console.error('Error creating project:', error);
-      setProjectRegisterError(true);
     }
   };
 

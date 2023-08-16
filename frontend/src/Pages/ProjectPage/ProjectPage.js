@@ -34,8 +34,8 @@ function ProjectPage() {
           <input className="texto" type="text" name="" id="" />
         </form>
         <ul className="navbar-links">
-          <li><a href=""><h2>Login</h2></a></li>
-          <li><a href=""><h2>Cadastrar</h2></a></li>
+          <li><a href="/login"><h2>Login</h2></a></li>
+          <li><a href="/register"><h2>Cadastrar</h2></a></li>
         </ul>
       </nav>
 

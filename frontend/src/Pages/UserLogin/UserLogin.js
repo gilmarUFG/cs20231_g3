@@ -58,7 +58,7 @@ function UserLogin() {
               <input className="text-input texto" name="email" placeholder="E-mail" type="text" />
               <input className="text-input texto" name="password" placeholder="Senha" type="password" />
               <input className="purple-button texto" type="submit" value="Login" />
-              <a className="alerta register-link" href="#">Não tenho uma conta</a>
+              <a className="alerta register-link" href="/register">Não tenho uma conta</a>
             </form>
           </div>
         </div>

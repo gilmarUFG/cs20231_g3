@@ -1,7 +1,3 @@
-//Nesse arquivo está nossa homepage
-import './App.css';
-import axios from 'axios';
-
 import Layout from './Components/Layout';
 import {Route, Routes} from 'react-router-dom';
 import IndexPage from './Pages/IndexPage/IndexPage';

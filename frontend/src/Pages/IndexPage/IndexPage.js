@@ -1,6 +1,5 @@
 import React, { useState, useEffect } from "react";
 import { Link } from 'react-router-dom'; // Importação do Link para roteamento
-import App from '../../App';
 import './IndexPage.css';
 
 import homelogo from '../../Assets/home-logo.png';
@@ -12,7 +11,7 @@ function IndexPage() {
 
     useEffect(() => {
         // Faz a chamada à API para obter os projetos
-        fetch("http://ec2-18-188-192-228.us-east-2.compute.amazonaws.com:8080/api/v1/projects/category/GAMES")
+        fetch("http://ec2-18-188-192-228.us-east-2.compute.amazonaws.com:8080/api/v1/projects/get-all-projects")
             .then(response => response.json())
             .then(data => setHighlightedProjects(data))
             .catch(error => console.error("Erro ao buscar projetos:", error));
@@ -39,7 +38,7 @@ function IndexPage() {
                         <div className="destaque">Mostre ao mundo o que você quer fazer</div>
                     </div>
                 </a>
-                <a href="" className="feature-link">
+                <a href="/" className="feature-link">
                     <div className="features-feature" id="feature-veja-resultados">
                         <h1>Veja resultados</h1>
                         <div className="destaque">Conheça projetos que ganharam vida</div>
