@@ -1,0 +1,77 @@
+.banner{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 464px;
+    margin: 32px 0;
+    background: linear-gradient(
+        to right,
+        #CC6FED,
+        #E6B7F6
+    );
+}
+
+.banner-title{
+    font-size: 64px;
+    text-align: center;
+    color: white;
+}
+
+.principal > h1{
+    text-align: center;
+}
+
+.principal-contents{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    width: 100%;
+    margin: 64px 0;
+}
+
+.principal-contents > div {
+    width: 40%;
+}
+
+.principal-contents-pagamento-box > .texto, .principal-contents-pagamento-box > .destaque{
+    color: #CC6FED;
+    margin-bottom: 4px;
+}
+
+.purple-button{
+    background-color: #CC6FED;
+    color: #FFFFFF;
+    padding: 16px 80px;
+    border: none;
+    border-radius: 15px;
+    margin-top: 12px;
+    cursor: pointer;
+}
+
+/* PROJECT MANAGEMENT EXCLUSIVE SETTINGS */
+
+.principal-management{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 24px 0;
+}
+
+.principal-management > h1 {
+    text-align: center;
+    font-size: 128px;
+    color: #CC6FED;
+}
+
+.principal-management > .complement {
+    color: #CC6FED;
+    padding-bottom: 24px;
+}
+
+.principal-management > .alerta {
+    padding: 24px 0;
+    color: #0A0A0A;
+}
