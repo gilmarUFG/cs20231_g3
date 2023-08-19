@@ -1,0 +1,23 @@
+.main-title{
+    text-align: center;
+    margin: 32px;
+}
+
+.main-container{
+    display: flex;
+    flex-direction: column;
+    margin: 0px 64px 32px;
+    gap: 32px;
+}
+
+.sub-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    gap: 132px;
+}
+
+.sub-container > .texto{
+    color: #0A0A0A;
+}

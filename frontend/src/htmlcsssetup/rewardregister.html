@@ -18,13 +18,15 @@
                 <div class="destaque titulo-secundario">Quase lá! As recompensas são uma forma de atrair doações mais significativas pro seu projeto</div>
     
                 <form class="register-project-form" action="">
-                    <input class="text-input texto" placeholder="Nome" type="text">
                     <input class="text-input texto" placeholder="Descrição" type="text">
-                    <label for="image-picker-input" class="image-picker-container">
-                        <span class="texto">Insira uma imagem para ilustrar a recompensa</span>
-                    </label>
-                    <input type="file" name="Imagem" id="image-picker-input">
-                    <input class="purple-button texto" type="submit" value="Publicar projeto">
+                    <input class="number-input texto" placeholder="Valor" type="number">
+                    <label for="data-limite" class="texto">Data esperada de entrega da recompensa</label>
+                    <input class="date-input texto" type="date" name="expectedDeliveryDate" id="data-limite">
+                    <div class="button-box">
+                        <input class="purple-button texto" type="submit" value="Publicar projeto">
+                        <input class="outline-button texto" type="submit" value="Nova recompensa">
+                    </div>
+                    
                 </form>
             </div>
         </div>
